@@ -16,7 +16,7 @@ This project includes two parts:
 
 by using this projects, you need to install PostgreSQL
 <br>
-DATABASE:
+## DATABASE:
 <br>
 ```sql
     CREATE DATABASE facerecognition
@@ -61,6 +61,6 @@ You will also see any lint errors in the console.
 
 ### Deployment
 
-Here is a documentation to deploy on Heroku
+Here is a documentation to deploy on Heroku. <br/>
 https://devcenter.heroku.com/articles/git
 
