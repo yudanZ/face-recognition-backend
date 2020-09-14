@@ -7,10 +7,10 @@ live demo:
 https://myfacedetections.herokuapp.com/
 
 This project includes two parts:
-<br>
-Frontend:https://github.com/yudanZ/face-recognition
-<br>
-Backend:https://github.com/yudanZ/face-recognition-backend
+
+* Frontend:https://github.com/yudanZ/face-recognition
+
+* Backend:https://github.com/yudanZ/face-recognition-backend
 
 
 
@@ -18,10 +18,10 @@ by using this projects, you need to install PostgreSQL
 <br>
 DATABASE:
 <br>
-CREATE DATABASE facerecognition
+```sql
+    CREATE DATABASE facerecognition
 
-Tables
-
+  
     CREATE TABLE public.login
     (
         id integer NOT NULL DEFAULT nextval('login_id_seq'::regclass),
@@ -41,7 +41,7 @@ Tables
         CONSTRAINT users_pkey PRIMARY KEY (id),
         CONSTRAINT users_email_key UNIQUE (email)
     )
-   
+   ```
 
 
 ## Available Scripts
@@ -63,3 +63,4 @@ You will also see any lint errors in the console.
 
 Here is a documentation to deploy on Heroku
 https://devcenter.heroku.com/articles/git
+
