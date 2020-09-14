@@ -16,8 +16,8 @@ This project includes two parts:
 
 by using this projects, you need to install PostgreSQL
 <br>
-## DATABASE:
-<br>
+## DATABASE
+
 ```sql
     CREATE DATABASE facerecognition
 
